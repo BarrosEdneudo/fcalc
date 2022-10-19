@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: fcalc
+Version: 1.0.2
+Summary: Módulos para matemática financeira
+Home-page: https://github.com/BarrosEdneudo/fcalc
+Author: Edneudo Barros
+Author-email: franciscoelb@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Fcalc
+
+Este pacote fornece mÃ³dulos relacionadas Ã  **matemÃ¡tica financeira**. A expectativa Ã© que possa ser de valia para pessoas que lidam com cÃ¡lculo financeiros, que envolvem taxa de juros, cÃ¡lculo de parcelas, montante e outros assuntos ligados ao setor. Testei no python 3.9.12
+
+## InstalaÃ§Ã£o
+
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar Fcalc
+
+```bash
+pip install fcalc
+```
+
+## Exemplo de uso
+
+```python
+from fcalc import fcalc
+fcalc.js_acum()
+fcalc.price()
+```
+
+## Autor
+Edneudo Barros
+
+## LicenÃ§a
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## ReferÃªncias
+
+[MatemÃ¡tica Essencial](http://www.uel.br/projetos/matessencial/basico/financeira/flcaixahp12c.html "MatemÃ¡tica Essencial")
+
+[MatemÃ¡tica financeira](https://brasilescola.uol.com.br/matematica/matematica-financeira.htm "MatemÃ¡tica financeira")
+
+[MatemÃ¡tica Financeira](https://mundoeducacao.uol.com.br/matematica/matematica-financeira.htm "MatemÃ¡tica Financeira")
+
+[MatemÃ¡tica Financeira](https://www.educamaisbrasil.com.br/enem/matematica/matematica-financeira "MatemÃ¡tica Financeira")
+
+[MatemÃ¡tica Financeira com Uso da HP-12C](https://prima.furg.br/images/livromfhp12c.pdf "MatemÃ¡tica Financeira com Uso da HP-12C")
+
+[Principais funÃ§Ãµes e aplicaÃ§Ãµes da calculadora HP 12C na MatemÃ¡tica Financeira para o Curso de CiÃªncias ContÃ¡beis](https://www.univates.br/ppgece/media/pdf/2016/principais_funcoes_e_aplicacoes_da_calculadora_hp_12c_na__matematica_financeira_para_o_curso_de_ciencias_contabeis.pdf "Principais funÃ§Ãµes e aplicaÃ§Ãµes da calculadora HP 12C na MatemÃ¡tica Financeira para o Curso de CiÃªncias ContÃ¡beis")
+
+[Fluxos de caixa com a calculadora HP12C](http://www.uel.br/projetos/matessencial/basico/financeira/flcaixahp12c.html "Fluxos de caixa com a calculadora HP12C")
+
+[Calculadora do cidadÃ£o](https://www3.bcb.gov.br/CALCIDADAO/jsp/index.jsp "Calculadora do cidadÃ£o")
+
+[MatemÃ¡tica financeira](https://d1wqtxts1xzle7.cloudfront.net/48066383/Livro_de_MForiginal-with-cover-page-v2.pdf?Expires=1666135260&Signature=NXcCobLJBN6B9sZ4Izdpa6TOdVlfaowQVwMDwjBOw283IhgZFGKiHqidVCVlbfa5SNBIxjOrQeSEUl6yj02PcMHWV3N8XJ1IagWYrkwt7UIp7qGtbmaET0s-LtrA8SyhLjIiDOPUPfbDh0qy3mLXMKosRU9uGZm0VhLUFIfcaWbahSmLExIX2RR4~ED3N5QORC7~RpfxNyReQ-T66vI6YvxGCEfH4wZsbBLHiHWfXvEPomEopVJfTrLSce26YVB84qc5faJQKIYK47~kUCNIUQAdjU~mdOueAcycjx~cA7CqGkZ4Wn0TKJFEW0p52A1W~k9W1TvQTEo0gJWM3NX~CA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA "MatemÃ¡tica financeira")
+
+[MatemÃ¡tica financeira](https://educapes.capes.gov.br/bitstream/capes/430116/2/eBook_Matem%C3%A1tica_Financeira_UFBA.pdf "MatemÃ¡tica financeira")
+
+[CÃ¡lculo financeiro](https://repositorio.ipv.pt/bitstream/10400.19/2906/1/Calculo%20Financeiro.%20Teoria%20e%20Pratica_1ed_para_Repositorio.pdf "CÃ¡lculo financeiro")
+
+[MatemÃ¡tica financeira](http://redeetec.mec.gov.br/images/stories/pdf/proeja/matematica_fin.pdf "MatemÃ¡tica financeira")
+
+[MatemÃ¡tica financeira](http://www.mat.ufpb.br/sergio/provas/magp/Matematica_financeira_Gilmar_Bornatto.pdf "MatemÃ¡tica financeira")
+
+[Apostila matemÃ¡tica financeira](https://dspace.uniceplac.edu.br/bitstream/123456789/1362/1/Apostila%20de%20matem%C3%A1tica%20financeira.pdf "Apostila matemÃ¡tica financeira")
+
+[MatemÃ¡tica financeira](http://arquivos.eadadm.ufsc.br/EaDADM/UAB3_2013-2/Modulo_4/Matematica_Financeira/material_didatico/Mat%20Financeira%20Final-3ed.pdf "MatemÃ¡tica financeira")
+

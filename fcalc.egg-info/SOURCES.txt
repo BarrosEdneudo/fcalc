@@ -1,0 +1,8 @@
+README.md
+setup.py
+fcalc/__init__.py
+fcalc/fcalc.py
+fcalc.egg-info/PKG-INFO
+fcalc.egg-info/SOURCES.txt
+fcalc.egg-info/dependency_links.txt
+fcalc.egg-info/top_level.txt
