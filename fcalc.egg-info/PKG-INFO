@@ -1,13 +1,12 @@
 Metadata-Version: 2.1
 Name: fcalc
-Version: 1.0.2
-Summary: Módulos para matemática financeira
-Home-page: https://github.com/BarrosEdneudo/fcalc
+Version: 1.0.3
+Summary: Cálculos relativos à matemática financeira
 Author: Edneudo Barros
 Author-email: franciscoelb@gmail.com
-License: UNKNOWN
+License: MIT License
+Keywords: matematica matemática financeira financeiro juro juros taxa taxas
 Platform: UNKNOWN
-Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 
 # Fcalc
@@ -20,14 +19,6 @@ Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar
 
 ```bash
 pip install fcalc
-```
-
-## Exemplo de uso
-
-```python
-from fcalc import fcalc
-fcalc.js_acum()
-fcalc.price()
 ```
 
 ## Autor

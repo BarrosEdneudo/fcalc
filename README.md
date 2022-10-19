@@ -10,14 +10,6 @@ Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar
 pip install fcalc
 ```
 
-## Exemplo de uso
-
-```python
-from fcalc import fcalc
-fcalc.js_acum()
-fcalc.price()
-```
-
 ## Autor
 Edneudo Barros
 

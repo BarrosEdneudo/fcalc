@@ -1,21 +1,16 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-with open("README.md", "r") as f:
-    page_description = f.read()
+with open("README.md", "r") as arq:
+    readme = arq.read()
 
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
-
-setup(
-    name="fcalc",
-    version="1.0.2",
-    author="Edneudo Barros",
-    author_email="franciscoelb@gmail.com",
-    description="Módulos para matemática financeira",
-    long_description=page_description,
+setup(name='fcalc',
+    version='1.0.3',
+    license='MIT License',
+    author='Edneudo Barros',
+    long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/BarrosEdneudo/fcalc",
-    packages=find_packages(),
-    install_requires=requirements,
-    python_requires='>=3.9',
-)
+    author_email='franciscoelb@gmail.com',
+    keywords='matematica matemática financeira financeiro juro juros taxa taxas',
+    description=u'Cálculos relativos à matemática financeira',
+    packages=['fcalc'],
+    install_requires=[],)
